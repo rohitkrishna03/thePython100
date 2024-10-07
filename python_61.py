@@ -28,3 +28,4 @@ employee.companyname ="meta"
 print(employee.companyname)
 
 # if they are defined on the instance level then they are called as instance variable.
+# here th emp1 and emp2 are called instance.
