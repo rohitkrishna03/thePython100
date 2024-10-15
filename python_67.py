@@ -9,4 +9,35 @@
 # this method is  responsible for setting up the objects initial state, and it is where you would typically define any instance variable that you need. 
 # also called "constructor", in file python_66.py
 
+# this is using the __len__ method
+# class employee:
+#     name= "rohit"
+#     def __len__(self):
+#         i=0
+#         for c in self.name:
+#             i =i+1
+#         return i
+    
+# e = employee()
+# print(e.name)
+# print(len(e))
+            
+            
+# this is using the __init__ method
 
+class employee:
+    def __init__(self, name):
+        self.name=name
+    def __len__(self):
+        i =0
+        for c in self.name:
+           i = i +1
+        return i 
+    def __str__(self):
+        return f"the name of the employee is {self.name}"
+    
+# in another file just write to se this output
+
+# from emp import employee
+# e=employee("rohit")
+# print(e)
