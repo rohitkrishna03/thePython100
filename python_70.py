@@ -5,9 +5,11 @@
 
 # why do we need operator overloading?
 # operator overloading allows you to create more readable and intuitive code.
-# for example, conside a custom class that represents a class in a 2d space.
+# for example, consider a custom class that represents a class in a 2d space.
 # you could define a method called "add" to add points together, but using the + operator makes the code more concise adn readable.
-
+# Operator overloading is a feature in Python that allows you to define custom behavior for standard operators like +, -, *, /, etc.,
+# when applied to instances of your class. This is done by overriding special methods in your class, also known as magic methods or dunder methods
+# (because they start and end with double underscores, like __add__ for +, __sub__ for -, and so on).
 # p1=point(1,2)
 # p2=point(3,4)
 # p3=p1+p2
